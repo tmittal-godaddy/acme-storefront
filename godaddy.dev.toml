@@ -19,10 +19,7 @@ authorization_scopes = [
 name        = "commerce.shipping-rates.calculate"
 url         = "/api/shipping-rates"
 
-[[subscriptions.webhook]]
-name        = "order-notifications"
-events      = ["commerce.order.created"]
-url         = "/webhooks/orders"
+
 
 [[extensions.checkout]]
 name   = "Shipping Info Banner"
